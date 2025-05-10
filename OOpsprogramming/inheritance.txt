@@ -1,0 +1,9 @@
+Inheritance in Python
+
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a class (called the child or derived class) to inherit attributes and methods from another class (called the parent or base class). This promotes code reuse and helps in building a hierarchical relationship between classes.
+
+Key Points:
+1. The parent class contains common functionality, while the child class can extend or override it.
+2. Inheritance is implemented using parentheses `()` in the class definition.
+
+Example:

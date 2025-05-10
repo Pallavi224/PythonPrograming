@@ -1,0 +1,15 @@
+1. Flask/Django - For creating web applications and APIs.
+2. Requests - For making HTTP requests to interact with APIs.
+3. Paramiko - For SSH and remote server management.
+4. Boto3 - For managing AWS services.
+5. Ansible - Python bindings for automation and configuration management.
+6. PyYAML - For parsing and writing YAML files.
+7. Docker SDK for Python - For managing Docker containers.
+8. Kubernetes Python Client - For interacting with Kubernetes clusters.
+9. Fabric - For automating deployment and system administration tasks.
+10. GitPython - For automating Git operations.
+11. pytest - For writing and running tests.
+12. logging - For logging and monitoring.
+13. subprocess - For running shell commands.
+14. os - For interacting with the operating system.
+15. json - For working with JSON data.
