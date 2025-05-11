@@ -1,0 +1,72 @@
+
+
+# Regular Expressions in Python
+
+# Importing the re module
+import re
+
+# Example: Searching for a pattern in a string
+pattern = r"\d+"  # Matches one or more digits
+text = "There are 123 apples and 456 oranges."
+
+# Using re.search() to find the first match
+match = re.search(pattern, text)
+if match:
+    print(f"Found a match: {match.group()}")
+
+# Using re.findall() to find all matches
+matches = re.findall(pattern, text)
+print(f"All matches: {matches}")
+
+# Using re.sub() to replace matches with a string
+replaced_text = re.sub(pattern, "number", text)
+print(f"Replaced text: {replaced_text}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Regular Expressions Examples
+
+# Match a valid email address
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+# Match a valid phone number (e.g., 123-456-7890 or (123) 456-7890)
+^(\(\d{3}\)\s?|\d{3}-)\d{3}-\d{4}$
+
+# Match a valid URL
+^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\/?$
+
+# Match a date in the format YYYY-MM-DD
+^\d{4}-\d{2}-\d{2}$
+
+# Match a 5-digit US ZIP code
+^\d{5}$
+
+# Match a hexadecimal color code (e.g., #FFFFFF or #000)
+^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$
+
+# Match a password with at least 8 characters, including one uppercase, one lowercase, one number, and one special character
+^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$
+
+# Match a string containing only alphabets
+^[a-zA-Z]+$
+
+# Match a string containing only digits
+^\d+$
+
+# Match a whitespace character
+^\s+$
+
+# Match an IP address (IPv4)
+^((25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[0-1]?[0-9][0-9]?)$
